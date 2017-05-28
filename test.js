@@ -9,6 +9,8 @@
 // console.log(Math.floor((a+b)/2))
 
 var a = [3,4]
+
+// binary search
 var binarySearch = function(nums, start, end, target) {
         if(start == end) {
             if(target == nums[start])
